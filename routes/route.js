@@ -7,3 +7,5 @@ router.get('/get-attendance/:date1', controlAttendance.getAttendance)
 router.get('/get-report', controlAttendance.getReport)
 
 module.exports = router
+//TODO: read about routing convention 
+//https://guides.rubyonrails.org/routing.html

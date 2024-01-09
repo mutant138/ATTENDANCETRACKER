@@ -1,7 +1,8 @@
-const sequelize = require("../util/database");
+const sequelize = require("../utils/database");
 const Sequelize = require('sequelize')
 const AttendanceModel = require('../models/studentModel')
 const DateModel = require('../models/dateModel')
+//TODO: you can name this file `index.js` 
 
 exports.getAttendance = (req, res, next) => {
   console.log("In getAttendance")

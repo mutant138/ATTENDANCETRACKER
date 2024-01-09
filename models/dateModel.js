@@ -1,7 +1,7 @@
 const Sequelize = require('sequelize')
-const sequelize = require('../util/database')
+const sequelize = require('../utils/database')
 
-const DateModel = sequelize.define('date',{
+const Date = sequelize.define('date',{ //TODO: give it a better name 
     id:{
         type:Sequelize.INTEGER,
         allowNull:false,
@@ -17,4 +17,4 @@ const DateModel = sequelize.define('date',{
     }
 })
 
-module.exports = DateModel
+module.exports = Date
